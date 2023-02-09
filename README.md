@@ -36,7 +36,7 @@ University of Dayton
 
 ## Project homepage
 
-https://cps491s23-team10.bitbucket.io/
+https://github.com/Mastery01/CPS491S23-Team09
 
 
 # Overview
@@ -62,7 +62,7 @@ Just a demo page for a Bitbucket homepage.
 To be updated with your team and CPS 490 Messenger demo.
 We will keep this page updated each sptint during the Spring semster.
 A video demo will be included.
-[Team10Website](https://cps491s23-team10.bitbucket.io/)
+[Team10Website](https://Mastery01.github.io/CPS491S23-Team09)
 ![Team 10 Website](https://iili.io/HohkPh7.md.png "Team 9 Public Website")
 
 # High-level Requirements
@@ -117,7 +117,7 @@ iRobot Roomba:
 For this project we will be using a Scrum approach. We will be using Trello, Slack, and Bitbucket for project management. Below are the links to our
 Trello and bitbucket.
 1. Trello: https://trello.com/b/ZLegHB04/cps-491-capstone
-2. Bitbucket: https://bitbucket.org/cps491s23-team10/cps491s23-team10/src/master/
+2. Github: https://github.com/Mastery01/CPS491S23-Team09
 
 ![Spring 2022 Timeline](https://capstones-cs-udayton.bitbucket.io/imgs/cps491timeline.png "Spring 2022 Timeline")
 

@@ -74,7 +74,6 @@ A video demo will be included.
 5. Users will be able to conduct a simple wall following by controlling the Roomba using arrow keys on the web page
 
 # Technology
-You also need to mention if there are any technical support and preferences from the company and if they provide an existing version of the application.
 For this project we will be using multiple development tools
 The main component of this project is the web interface. Since we are creating a web interface that will be used by students. We will be implementing a login use case
 so that only students within the CPS 499 Robotics class will be able to access the web page. We will also be implementing a database to store the students username and passwords
@@ -95,7 +94,8 @@ repository are connected to each other and our work is saving.
 3. Python (Back-end)
 
 # Deployment environments
-1. Google Cloud Shell
+1. Github Code Space 
+2. Visual Studio Code
 2. MongoDb
 
 

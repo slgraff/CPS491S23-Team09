@@ -1,86 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title> Homepage of CPS491S23-Team 10</title>
-  <style>
-
-  /* Set the background color for the page */
-  body {
-    background-color: #231f3d;
-  }
-
-  /* Center the content on the page */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
-  }
-
-  /* Style the header section */
-  header {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-  /* Style the header text */
-  header h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-  }
-
-  /* Style the header description text */
-  header p {
-    font-size: 18px;
-    color: #555;
-    margin-top: 10px;
-  }
-
-  /* Style the updates section */
-  .updates {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-
-  /* Style the updates header */
-  .updates h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  /* Style the updates text */
-  .updates p {
-    font-size: 18px;
-    color: #555;
-    line-height: 1.5;
-  }
-
-  /* Style the "Learn More" button */
-  .updates a.btn {
-    display: block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 20px;
-  }
-
-  </style>
+<title>CPS 491S23 Team09</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
 </head>
 <body>
-    <h1>CPS 491, Spring 2023</h1>
-    <h2>Amanda Bolden, Alejandro Ruiz, Chris Eustace, University of Dayton</h2>
-    <p> Welcome to Team 09 Capstone II Homepage for Fall 2022-2023. This is where 
-        you can find out Capstone II iRoomba control web interface.
-    </p>
-    <p>Stay tuned for more updates on our iRoomba contorl project.</p>
-    <p> We will keep this page updated each sptint during the Spring semster. </p>
-    <p> A video demo will be included. Coming soon ...... </p>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button"> Homepage of Team 09</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Project Details</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Team 09</h1><br>
+      <h5 class="w3-center">CPS 491 Spring 2023</h5>
+      <p class="w3-large"> We are team 09 for the CPS 491 Spring 2023. Our team consist of 3 people. Amanda Bolden a senior Computer Information Sytems Major, Alejandro Ruiz a senior Computer Science Major and Chris Eustace a senior Computer Science Major. We are creating a web interface to interact with the iRoomba for 
+        our client Dr.Nicholas Stiffler of the University of Dayton. 
+        This is where you can find out Capstone II iRoomba control web interface project. Stay tuned for more updates on our project we will keep this page updated each sptint during the Spring semster. </p>
+      <p> A video demo will be included. Coming soon ...... </p>
+      </p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Project</h1><br>
+      <h4>iRoomba Web Interface</h4>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Sponsored by the University of Dayton Robotics Lab</p>
+</footer>
+
 </body>
 </html>

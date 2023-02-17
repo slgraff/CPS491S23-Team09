@@ -2,16 +2,61 @@
 <html>
 <head>
   <title>Web Interface</title>
+<style>
+  #controls {	
+    position: absolute;	       
+	background-color: #F0F0F0;
+	opacity: 0.65;
+	z-index: 10;
+	width: 320px;
+	height: 310px;
+	top: 45px;
+	left: 45px;
+}
+</style>
+
 </head>
 <body>
   <h1>Team09 IRoomba Web Interface</h1>
     <p>Made by Amanda Bolden, Aljenadro, and Chris for Capston 491</p>
-  <h1>Web Interface</h1>
-  <button id="up">Up</button>
+  <h1>Controls</h1>
+  <!-- <button id="up">Up</button>
   <button id="down">Down</button>
   <button id="left">Left</button>
-  <button id="right">Right</button>
-  
+  <button id="right">Right</button> -->
+
+  <div id="controls" style="display:none"></div>
+		
+		<div style="margin:50px; width:310px">
+			<img src="https://iili.io/HGfdZNf.jpg" alt="HGfdZNf.jpg" border="0" height="100"></a>
+      
+      <button>
+			<img src="https://iili.io/HGfdQAG.jpg" alt="HGfdQAG.jpg" border="0" height="100"></a>
+      </button>
+
+      <br>
+			<button>
+      <img src="https://iili.io/HGfdiSn.jpg" alt="HGfdiSn.jpg" border="0" height="100"></a>
+      </button>
+     
+      <button>
+      <img src="https://iili.io/HGfdL9s.jpg" alt="HGfdL9s.jpg" border="0" height="100"></a>
+      </button>
+			
+      <button>
+      <img src="https://iili.io/HGfdbol.jpg" alt="HGfdbol.jpg" border="0" height="100"></a>
+      </button>
+      <br>
+
+      <button>
+			<img src="https://iili.io/HGfdZNf.jpg" alt="HGfdZNf.jpg" border="0" height="100"></a>
+      </button>
+			
+      <button>
+      <img src="https://iili.io/HGfdtt4.jpg" alt="HGfdtt4.jpg" border="0" height="100"></a>
+      </button>
+		</div>
+
   <script>
     // Event listener for the up button
     document.getElementById("up").addEventListener("click", function() {

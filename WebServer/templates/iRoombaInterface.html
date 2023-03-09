@@ -3,13 +3,13 @@
 <head>
   <title>Web Interface</title>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
     <script type="text/javascript" charset="utf-8">
       var socket = io.connect('http://' + document.domain + ':' + location.port);
       function start_program() {
         socket.emit('start_program');
       }
-</script>
+    </script> -->
 
 <style>
   .controls {	
@@ -24,7 +24,8 @@
 }
 </style>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js" integrity="sha512-sGwMXCgejKOhPKh2vTL59jB0Kn0Zfucd9Xq3tYl0jK1wZ0c05Oa1Hv0JzMW5P5o5E5xE5jKv5AXUKoW/c2DyGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js" integrity="sha512-sGwMXCgejKOhPKh2vTL59jB0Kn0Zfucd9Xq3tYl0jK1wZ0c05Oa1Hv0JzMW5P5o5E5xE5jKv5AXUKoW/c2DyGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
 
 </head>
 <body>
@@ -67,8 +68,18 @@
     <br>
     <p>Made by Amanda Bolden, Aljenadro, and Chris for Capston 491</p>
 
-    <!-- The Socket.IO client library -->
-  <script src="/socket.io/socket.io.js"></script>
+       <!-- The Socket.IO client library const socket = io();-->
+    <script>
+    //Code to listen for responses from the server and update the web interface
+      socket.on('status_update', function(data){
+        console.log(data);
+      }); //When server emits status update event data is sent with the event logged to the consoleweb serveris updated 
+
+      socket.on('disconnect', function(){
+        console.log('Disconnect from server');
+      });
+    </script>
 </body>
 </html>
+
 

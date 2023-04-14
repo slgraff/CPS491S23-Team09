@@ -2,51 +2,79 @@
 <html>
 <head>
 <title>CPS 491S23 Team09</title>
+<style>
+  h1 {
+    animation: rainbow 5s infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      color: red;
+    }
+    25% {
+      color: orange;
+    }
+    50% {
+      color: yellow;
+    }
+    75% {
+      color: green;
+    }
+    100% {
+      color: blue;
+    }
+  }
+</style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
-}
-</style>
-</head>
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button"> Homepage of Team 09</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#menu" class="w3-bar-item w3-button">Project Details</a>
-      <a href="#Sprint1" class="w3-bar-item w3-button">Sprint 1</a>
-      <a href="#Sprint2" class="w3-bar-item w3-button">Sprint 2</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  body {font-family: "Times New Roman", Georgia, Serif;}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+  /* Added style for links in the main content */
+  a.content-link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a.content-link:hover {
+    text-decoration: underline;
+  }
+  </style>
+  </head>
+  <body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button"> Homepage of Team 09</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#menu" class="w3-bar-item w3-button">Project Details</a>
+        <a href="#Sprint1" class="w3-bar-item w3-button">Sprint 1</a>
+        <a href="#Sprint2" class="w3-bar-item w3-button">Sprint 2</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
     </div>
   </div>
-</div>
-
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-  </div>
-</header>
-
-<!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
-
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-      <a href="https://freeimage.host/i/HGKbLQ9"><img src="https://iili.io/HGKbLQ9.md.jpg" alt="HGKbLQ9.md.jpg" border="0" width="300" height="300"></a>
-      <a href="https://freeimage.host/i/HGKpANV"><img src="https://iili.io/HGKpANV.md.jpg" alt="HGKpANV.md.jpg" border="0" width="300" height="300"></a>
-      <a href="https://freeimage.host/"><img src="https://iili.io/HGKpTHx.jpg" alt="HGKpTHx.jpg" border="0" width="300" height="300"></a>
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     </div>
+  </header>
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:1100px">
+    <!-- About Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <a href="https://freeimage.host/i/HGKbLQ9"><img src="https://iili.io/HGKbLQ9.md.jpg" alt="HGKbLQ9.md.jpg" border="0" width="300" height="300"></a>
+        <a href="https://freeimage.host/i/HGKpANV"><img src="https://iili.io/HGKpANV.md.jpg" alt="HGKpANV.md.jpg" border="0" width="300" height="300"></a>
+        <a href="https://freeimage.host/"><img src="https://iili.io/HGKpTHx.jpg" alt="HGKpTHx.jpg" border="0" width="300" height="300"></a>
+      </div>
 
     <div class="w3-col m6 w3-padding-large">
       <h1 class="w3-center">About Team 09</h1><br>
@@ -79,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
         computational challenges.”
       </p>
       <a href="https://udayton.edu/directory/artssciences/computerscience/stiffler-nicholas.php">You can learn more about Dr.Stiffler here</a>
+      
 
       </p>
     </div>
@@ -188,6 +217,16 @@ h1, h2, h3, h4, h5, h6 {
 <footer class="w3-center w3-light-grey w3-padding-32">
   <p>Sponsored by the University of Dayton Robotics Lab</p>
 </footer>
+<script>
+  function changeColor() {
+    var colors = ['#FF5733', '#C70039', '#900C3F', '#581845', '#900C3F', '#E74C3C', '#F1C40F', '#2ECC71', '#1ABC9C', '#3498DB', '#9B59B6', '#ECF0F1', '#34495E'];
+    var random_color = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.background = random_color;
+  }
+</script>
+<button onclick="changeColor()">Change Color</button>
+    </main>
+    <footer>
 
 </body>
 </html>
